@@ -1,0 +1,35 @@
+.grid{
+    height: 315px;
+    width: 315px;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.turn-highlight{
+    color:white;
+    
+}
+.title{
+    color : #fff685
+}
+
+.button {
+  padding: 1rem 2rem;
+  background-color: #5cec9f;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1be454;
+}
