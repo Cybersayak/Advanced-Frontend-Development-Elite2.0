@@ -1,0 +1,20 @@
+.tweet-container {
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #b0b7bc;
+  width: 800px;
+  border-radius: 20px;
+}
+
+.likes{
+    text-align:left;
+     font-size: x-small;
+}
+.comments {
+    text-align:left;
+    font-size: x-small;
+}
+
+.tweet-content {
+    margin-bottom: 1rem ;
+}

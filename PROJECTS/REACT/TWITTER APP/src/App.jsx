@@ -1,9 +1,8 @@
-
 import './App.css'
+import Twitter from './components/Twitter'
 
 function App() {
-  
-  return  <h1> Twitter App </h1>
+  return  <Twitter />
 }
 
 export default App
